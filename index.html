@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mamita Tere - Panadería Artesanal</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Handlee&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+    <div class="loader">
+        <img src="assets/img/logo.png" alt="Logo Mamita Tere">
+    </div>
+    </div>
+
+  <!-- NAVBAR -->
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+        <img src="assets/img/logo.png" alt="Logo Mamita Tere">
+        <span>Panadería Mamita Tere</span>
+      </div>
+      <ul class="nav-list menu">
+        <a href="#inicio">Inicio</a>
+        <a href="#tipos-pan">Tipos de Pan</a>
+        <a href="#pedidos-especiales">Pedidos Especiales</a>
+        <a href="#contacto">Contacto</a>
+      </ul>
+      <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+    </div>
+  </header>
+
+  <!-- SECCIÓN INICIO -->
+    <section id="inicio" class="hero-section">
+    <div class="hero-carousel">
+        <div class="hero-slide active" style="background-image: url('assets/img/img1.png');"></div>
+        <div class="hero-slide" style="background-image: url('assets/img/img2.png');"></div>
+        <div class="hero-slide" style="background-image: url('assets/img/img3.jpg');"></div>
+    </div>
+
+    <div class="hero-content">
+        <h1 class="hero-title">Bienvenido a Panaderia Mamita Tere</h1>
+        <p class="hero-subtitle">Panadería artesanal con los mejores panes y dulces caseros. ¡Sabor que enamora!</p>
+    </div>
+
+    <div class="carousel-controls">
+        <span class="prev">&#10094;</span>
+        <span class="next">&#10095;</span>
+    </div>
+    </section>
+
+  <!-- SECCIÓN TIPOS DE PAN -->
+  <section id="tipos-pan" class="section-padding">
+    <h2 class="section-title fade-in">Nuestros Panes</h2>
+    <p class="section-description fade-in">Descubre nuestra variedad: Pan dulce, Hallullas, Pampitas, Dobladitas, Pan amasado y Chocosos.</p>
+    <div class="product-grid fade-in">
+      <div class="product-item">
+        <img src="pan-dulce.jpg" alt="Pan dulce">
+        <h3>Pan Dulce</h3>
+      </div>
+      <div class="product-item">
+        <img src="hallullas.jpg" alt="Hallullas">
+        <h3>Hallullas</h3>
+      </div>
+      <div class="product-item">
+        <img src="pampitas.jpg" alt="Pampitas">
+        <h3>Pampitas</h3>
+      </div>
+      <div class="product-item">
+        <img src="dobladitas.jpg" alt="Dobladitas">
+        <h3>Dobladitas</h3>
+      </div>
+      <div class="product-item">
+        <img src="pan-amasado.jpg" alt="Pan Amasado">
+        <h3>Pan Amasado</h3>
+      </div>
+      <div class="product-item">
+        <img src="chocosos.jpg" alt="Chocosos">
+        <h3>Chocosos</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN PEDIDOS ESPECIALES -->
+  <section id="pedidos-especiales" class="section-padding bg-light">
+    <h2 class="section-title fade-in">Pedidos Especiales</h2>
+    <p class="section-description fade-in">Canapés, masas de sopaipillas, masas de empanadas y más para tus eventos o celebraciones.</p>
+    <div class="form-wrapper fade-in">
+      <div class="form-image">
+        <img src="pedidos-especiales.jpg" alt="Pedidos Especiales">
+      </div>
+      <form class="contact-form" id="pedidoForm">
+        <div class="form-group">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" placeholder="Tu nombre" required>
+        </div>
+        <div class="form-group">
+          <label for="correo">Correo</label>
+          <input type="email" id="correo" placeholder="Tu correo" required>
+        </div>
+        <div class="form-group">
+          <label for="pedido">Detalle del pedido</label>
+          <textarea id="pedido" rows="5" placeholder="Describe tu pedido especial" required></textarea>
+        </div>
+        <button type="button" class="btn" id="enviarPedido">Enviar Pedido</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- SECCIÓN CONTACTO -->
+  <section id="contacto" class="section-padding">
+    <h2 class="section-title fade-in">📍 Dónde encontrarnos</h2>
+    <div class="contact-info-grid fade-in">
+    <div class="contact-details">
+    <p><i class="fas fa-map-marker-alt"></i> Pasaje Combarbala 10915, La Pintana, Chile</p>
+    <p><i class="fas fa-phone-alt"></i> +56 9 4922 2393</p>
+    <p><i class="fas fa-clock"></i> Horario de atención: Lunes a Viernes, 09:00 - 20:00</p>
+    <p>¡Visítanos para disfrutar del pan recién horneado y un ambiente familiar!</p>
+    <h4>Productos Destacados:</h4>
+    <ul>
+        <li>Pan dulce artesanal</li>
+        <li>Hallullas recién horneadas</li>
+        <li>Pampitas y Dobladitas caseras</li>
+        <li>Chocosos y Pan amasado tradicional</li>
+    </ul>
+    </div>
+      <div class="map-container">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3325.123456789!2d-70.583333!3d-33.575000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967c5e7a1234567%3A0xabcdef1234567890!2sPasaje%20Combarbala%2010915%2C%20La%20Pintana%2C%20Chile!5e0!3m2!1ses!2scl!4v1699999999999"
+          width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOTÓN WHATSAPP -->
+  <a href="https://wa.me/56949222393" class="whatsapp-btn" target="_blank" title="Escríbenos por WhatsApp">
+    <img src="assets/img/icon.png" alt="WhatsApp">
+  </a>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2025 Mamita Tere. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+  
+  <script>
+    // JS
+    (function() {
+    const preloader = document.getElementById('preloader');
+    const minTime = 2000; // Duración mínima 2 segundos
+    const startTime = Date.now();
+
+    window.addEventListener('load', () => {
+        const elapsed = Date.now() - startTime;
+        const remaining = minTime - elapsed;
+        
+        setTimeout(() => {
+        preloader.classList.add('fade-out');
+        setTimeout(() => preloader.remove(), 1000); // espera el fade-out
+        }, remaining > 0 ? remaining : 0);
+    });
+    })();
+</script>
+
+</body>
+</html>
