@@ -121,12 +121,26 @@ h1,h2,h3 { font-family: 'Handlee', cursive; color: #5a3e2b; }
 }
 
 .hero-title {
-  font-size: 2.8rem;
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: #e9a617; /* Blanco para mayor contraste */
+  text-shadow: 3px 3px 10px rgba(0,0,0,0.7); /* Sombra más intensa */
   margin-bottom: 20px;
+  background-color: rgba(0,0,0,0.3); /* Fondo negro semi-transparente */
+  display: inline-block; /* Para que el fondo se ajuste al texto */
+  padding: 5px 10px; /* Espacio entre texto y fondo */
+  border-radius: 5px; /* Bordes redondeados opcional */
 }
 
 .hero-subtitle {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #e9a617;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+  background-color: rgba(0,0,0,0.2);
+  display: inline-block;
+  padding: 3px 8px;
+  border-radius: 4px;
 }
 
 /* Controles del carrusel */
